@@ -8,9 +8,11 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
+	//This is new commit for rajesh
 	public void LoginPage(WebDriver ldriver)
 	{
 		this.driver = ldriver;
+		
 	}
 
 	
