@@ -15,7 +15,6 @@ public class LoginPage {
 		
 	}
 
-	
 	@FindBy(name = "username") WebElement uname; 
 	
 	@FindBy(name = "password") WebElement pass;
@@ -30,7 +29,6 @@ public class LoginPage {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-		
 		uname.sendKeys(usernameApplication);
 		pass.sendKeys(passwordApplication);
 		loginButton.click();
